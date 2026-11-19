@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loc version="1.0" src="Groundspeak"><waypoint><name id="GC1"><![CDATA[Cache one]]></name><coord lat="50.087" lon="14.421"/><type>Geocache</type><link text="Details">https://example.com/GC1</link></waypoint><waypoint><name id="GC2">Two</name><coord lat="50.09" lon="14.43"/></waypoint></loc>

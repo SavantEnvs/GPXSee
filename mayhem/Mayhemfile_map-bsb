@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: map-bsb
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/map-bsb/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/map-bsb
+    libfuzzer: true
+    timeout: 10

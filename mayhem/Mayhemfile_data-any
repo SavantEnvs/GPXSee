@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: data-any
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/data-any/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/data-any
+    libfuzzer: true
+    timeout: 10

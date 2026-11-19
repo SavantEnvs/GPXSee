@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2">
+<Activities><Activity Sport="Running"><Id>2020-05-01T08:00:00Z</Id>
+<Lap StartTime="2020-05-01T08:00:00Z"><TotalTimeSeconds>60</TotalTimeSeconds><DistanceMeters>300</DistanceMeters>
+<Track>
+<Trackpoint><Time>2020-05-01T08:00:00Z</Time><Position><LatitudeDegrees>50.087</LatitudeDegrees><LongitudeDegrees>14.421</LongitudeDegrees></Position><AltitudeMeters>190</AltitudeMeters><HeartRateBpm><Value>120</Value></HeartRateBpm><Cadence>80</Cadence></Trackpoint>
+<Trackpoint><Time>2020-05-01T08:00:30Z</Time><Position><LatitudeDegrees>50.088</LatitudeDegrees><LongitudeDegrees>14.423</LongitudeDegrees></Position><AltitudeMeters>192</AltitudeMeters><HeartRateBpm><Value>130</Value></HeartRateBpm><Cadence>82</Cadence></Trackpoint>
+<Trackpoint><Time>2020-05-01T08:01:00Z</Time><Position><LatitudeDegrees>50.089</LatitudeDegrees><LongitudeDegrees>14.425</LongitudeDegrees></Position><AltitudeMeters>195</AltitudeMeters><HeartRateBpm><Value>140</Value></HeartRateBpm></Trackpoint>
+</Track></Lap></Activity></Activities>
+<Courses><Course><Name>C1</Name><Track><Trackpoint><Time>2020-05-01T09:00:00Z</Time><Position><LatitudeDegrees>50.1</LatitudeDegrees><LongitudeDegrees>14.5</LongitudeDegrees></Position></Trackpoint><Trackpoint><Time>2020-05-01T09:01:00Z</Time><Position><LatitudeDegrees>50.11</LatitudeDegrees><LongitudeDegrees>14.51</LongitudeDegrees></Position></Trackpoint></Track><CoursePoint><Name>CP</Name><Time>2020-05-01T09:00:30Z</Time><Position><LatitudeDegrees>50.105</LatitudeDegrees><LongitudeDegrees>14.505</LongitudeDegrees></Position><PointType>Generic</PointType></CoursePoint></Course></Courses>
+</TrainingCenterDatabase>

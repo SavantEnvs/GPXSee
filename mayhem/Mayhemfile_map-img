@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: map-img
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/map-img/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/map-img
+    libfuzzer: true
+    timeout: 10

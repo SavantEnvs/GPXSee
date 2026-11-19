@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: data-mp4
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/data-mp4/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/data-mp4
+    libfuzzer: true
+    timeout: 10

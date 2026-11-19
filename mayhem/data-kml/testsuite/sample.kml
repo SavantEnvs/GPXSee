@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document><name>Seed</name>
+<Style id="s"><LineStyle><color>ff0000ff</color><width>3</width></LineStyle><PolyStyle><color>7f00ff00</color></PolyStyle></Style>
+<Folder><name>F</name>
+<Placemark><name>P1</name><description>point</description><Point><coordinates>14.421,50.087,190</coordinates></Point></Placemark>
+<Placemark><name>L1</name><styleUrl>#s</styleUrl><LineString><coordinates>14.42,50.08,190 14.43,50.09,195 14.45,50.10,200</coordinates></LineString></Placemark>
+<Placemark><name>A1</name><styleUrl>#s</styleUrl><Polygon><outerBoundaryIs><LinearRing><coordinates>14.40,50.05 14.50,50.05 14.50,50.10 14.40,50.10 14.40,50.05</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>14.42,50.06 14.44,50.06 14.44,50.08 14.42,50.06</coordinates></LinearRing></innerBoundaryIs></Polygon></Placemark>
+<Placemark><name>GX</name><gx:Track><when>2020-05-01T08:00:00Z</when><when>2020-05-01T08:00:30Z</when><gx:coord>14.42 50.08 190</gx:coord><gx:coord>14.43 50.09 192</gx:coord></gx:Track></Placemark>
+<Placemark><name>MG</name><MultiGeometry><Point><coordinates>14.1,50.1</coordinates></Point><LineString><coordinates>14.1,50.1 14.2,50.2</coordinates></LineString></MultiGeometry></Placemark>
+</Folder></Document></kml>

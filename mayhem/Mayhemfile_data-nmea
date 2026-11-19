@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: data-nmea
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/data-nmea/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/data-nmea
+    libfuzzer: true
+    timeout: 10

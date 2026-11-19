@@ -1,0 +1,59 @@
+# Known answers for mayhem/test.sh: <gpxsee_dump mode> <sample> => <expected summary> (see test.sh).
+-d mayhem/data-fit/testsuite/activity_le.fit => valid tracks=1 routes=0 waypoints=1 areas=0 rings=0 points=10 dist=978 time=22 moving=22 graphs=5 names=Lap 1,
+-d mayhem/data-fit/testsuite/course_be.fit => valid tracks=1 routes=0 waypoints=3 areas=0 rings=0 points=5 dist=723 time=10 moving=10 graphs=1 names=Summit,Food stop,Home,
+-d mayhem/data-gpx/testsuite/sample.gpx => valid tracks=1 routes=1 waypoints=1 areas=0 rings=0 points=7 dist=3677 time=100 moving=100 graphs=5 names=Start,
+-d mayhem/data-nmea/testsuite/sample.nmea => valid tracks=1 routes=0 waypoints=1 areas=0 rings=0 points=3 dist=60 time=20 moving=20 graphs=1 names=START,
+-d mayhem/data-vtk/testsuite/track1.vtk => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=9 dist=619 time=11 moving=11 graphs=1 names=
+-d mayhem/data-vtk/testsuite/track2_unknownfields.vtk => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=5 dist=356 time=25 moving=25 graphs=1 names=
+-d mayhem/data-kml/testsuite/sample.kml => valid tracks=3 routes=0 waypoints=2 areas=1 rings=1 points=7 dist=17677 time=nan moving=nan graphs=1 names=P1,MG,
+-d mayhem/data-geojson/testsuite/sample.geojson => valid tracks=2 routes=0 waypoints=4 areas=2 rings=2 points=7 dist=29576 time=nan moving=nan graphs=0 names=P1,GC,GC,GC,
+-d mayhem/data-exif/testsuite/photo_be_sw.jpg => valid tracks=0 routes=0 waypoints=1 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=photo be sw,
+-d mayhem/data-exif/testsuite/photo_le.jpg => valid tracks=0 routes=0 waypoints=1 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=photo le,
+-d mayhem/data-gpi/testsuite/pois1.gpi => valid tracks=0 routes=0 waypoints=3 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=Pub A,Cafe B,Shop C,
+-d mayhem/data-gpi/testsuite/pois2_noicon.gpi => valid tracks=0 routes=0 waypoints=1 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=Opera,
+-d mayhem/data-mp4/testsuite/gopro_gpmf_gps5.mp4 => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=9 dist=278 time=1 moving=1 graphs=1 names=
+-d mayhem/data-mp4/testsuite/location_xyz.mp4 => valid tracks=0 routes=0 waypoints=1 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=location xyz,
+-d mayhem/data-mp4/testsuite/raw_gpmf_gps9.mp4 => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=7 dist=101 time=1 moving=1 graphs=1 names=
+-d mayhem/data-igc/testsuite/sample.igc => valid tracks=1 routes=1 waypoints=0 areas=0 rings=0 points=5 dist=5915 time=30 moving=30 graphs=1 names=
+-d mayhem/data-ghp/testsuite/track.ghp => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=4 dist=773 time=5 moving=5 graphs=2 names=
+-d mayhem/data-ghp/testsuite/track_south.ghp => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=3 dist=868 time=6 moving=6 graphs=2 names=
+-u mayhem/data-any/testsuite/csv.bin => valid tracks=0 routes=0 waypoints=3 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=Start,Quoted, name,End,
+-u mayhem/data-any/testsuite/cup.bin => valid tracks=0 routes=1 waypoints=2 areas=0 rings=0 points=3 dist=23177 time=0 moving=0 graphs=0 names=Airfield,Hill,
+-u mayhem/data-any/testsuite/gpsdump.bin => valid tracks=1 routes=0 waypoints=2 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=START,END,
+-u mayhem/data-any/testsuite/itn.bin => valid tracks=0 routes=1 waypoints=0 areas=0 rings=0 points=3 dist=2535 time=0 moving=0 graphs=0 names=
+-u mayhem/data-any/testsuite/loc.bin => valid tracks=0 routes=0 waypoints=2 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=GC1,GC2,
+-u mayhem/data-any/testsuite/plt.bin => valid tracks=1 routes=0 waypoints=0 areas=0 rings=0 points=2 dist=362 time=60 moving=60 graphs=1 names=
+-u mayhem/data-any/testsuite/rte.bin => valid tracks=1 routes=1 waypoints=0 areas=0 rings=0 points=2 dist=1323 time=0 moving=0 graphs=0 names=
+-u mayhem/data-any/testsuite/srt.bin => valid tracks=2 routes=0 waypoints=0 areas=0 rings=0 points=2 dist=362 time=2 moving=2 graphs=1 names=
+-u mayhem/data-any/testsuite/tcx.bin => valid tracks=3 routes=0 waypoints=1 areas=0 rings=0 points=4 dist=1685 time=120 moving=120 graphs=3 names=CP,
+-u mayhem/data-any/testsuite/trk.bin => valid tracks=2 routes=0 waypoints=1 areas=0 rings=0 points=2 dist=362 time=60 moving=60 graphs=1 names=P1,
+-u mayhem/data-any/testsuite/wpt.bin => valid tracks=1 routes=0 waypoints=2 areas=0 rings=0 points=0 dist=0 time=0 moving=0 graphs=0 names=Start,End,
+-m mayhem/map-img/testsuite/sample1.img => valid name=Tiny5 ll=14.000,50.010,14.010,50.000 draw=21319,59556,65430,65536
+-m mayhem/map-img/testsuite/sample2_gmapsupp_cp1252.img => valid name=Tiny7 ll=14.000,50.010,14.010,50.000 draw=21319,59556,65430,65536
+-m mayhem/map-img/testsuite/sample3_gmapsupp_unicode.img => valid name=Tiny6 ll=14.000,50.010,14.010,50.000 draw=21319,59555,65429,65535
+-m mayhem/map-mapsforge/testsuite/double_delta_encoding.map => valid name=double delta encoding ll=0.000,0.000,1.000,-1.000 draw=244,0,0,0
+-m mayhem/map-mapsforge/testsuite/file_header.map => valid name=file header ll=0.198,0.308,0.400,0.100 draw=0,0,0,0
+-m mayhem/map-mapsforge/testsuite/single_delta_encoding.map => valid name=single delta encoding ll=0.000,0.000,1.000,-1.000 draw=244,0,0,0
+-m mayhem/map-rmap/testsuite/jpeg_tiles.rmap => valid name=jpeg tiles ll=14.000,50.100,14.200,50.000 draw=65536,65536
+-m mayhem/map-rmap/testsuite/palette_tiles.rmap => valid name=palette tiles ll=-0.200,51.600,0.102,51.398 draw=16384
+-m mayhem/map-enc/testsuite/1B5X02NE.000 => valid name=1B5X02NE.000 ll=60.977,-32.493,60.983,-32.499 draw=65536,65536,65536,65536
+-m mayhem/map-qct/testsuite/datum_shift.qct => valid name=Test chart ll=-3.000,55.000,-2.904,54.968 draw=11264
+-m mayhem/map-qct/testsuite/four_encodings.qct => valid name=Test chart ll=14.000,50.100,14.100,50.000 draw=15360
+-m mayhem/map-bsb/testsuite/australia4c.kap => valid name=Australia 30000000 ll=105.403,-7.774,165.682,-44.467 draw=65536
+-m mayhem/map-bsb/testsuite/transverse_mercator.kap => valid name=UNKNOWN ll=18.554,58.972,18.555,58.971 draw=2500
+-m mayhem/map-pmtiles/testsuite/ne_10m_admin_0_france.pmtiles => valid name=ne_10m_admin_0_france ll=-5.000,51.200,8.500,42.200 draw=43008,65536,65536,65536
+-m mayhem/map-pmtiles/testsuite/poly.pmtiles => valid name=poly ll=2.734,43.043,2.775,43.018 draw=65536
+-m mayhem/map-jnx/testsuite/v3_two_levels.jnx => valid name=v3 two levels ll=14.000,50.100,14.150,50.000 draw=65536,65536
+-m mayhem/map-jnx/testsuite/v4_two_levels.jnx => valid name=v4 two levels ll=151.100,-33.800,151.250,-33.900 draw=65536,65536
+-m mayhem/map-geotiff/testsuite/byte.tif => valid name=byte ll=-117.642,33.902,-117.629,33.892 draw=399
+-m mayhem/map-geotiff/testsuite/utmsmall.tif => valid name=utmsmall ll=-117.642,33.903,-117.577,33.848 draw=9176
+-m mayhem/map-aqm/testsuite/one_tile.aqm => valid name=One tile ll=0.000,66.513,45.000,40.980 draw=65536
+-m mayhem/map-aqm/testsuite/two_levels.aqm => valid name=Two levels ll=-180.000,85.051,180.000,-85.051 draw=65536,65536
+-m mayhem/map-gemf/testsuite/two_zooms.gemf => valid name=two zooms ll=-180.000,85.051,180.000,-85.051 draw=65536,65536
+-m mayhem/map-gemf/testsuite/v3_one_tile.gemf => valid name=v3 one tile ll=0.000,66.513,45.000,40.980 draw=65536
+-m mayhem/map-tar/testsuite/latlon_2x2.tar => valid name=alps ll=10.000,47.500,11.002,46.999 draw=65536
+-m mayhem/map-tar/testsuite/mercator_1x2.tar => valid name=coast ll=-5.000,50.000,-4.498,49.499 draw=65536
+-m mayhem/map-kmz/testsuite/rotated_stored.kmz => valid name=rotated stored ll=14.300,50.200,14.600,50.000 draw=58916
+-m mayhem/map-kmz/testsuite/two_overlays_deflate.kmz => valid name=two overlays deflate ll=7.000,46.100,7.200,46.000 draw=65536
+-o mayhem/map-ozf/testsuite/two_zooms.ozf2 => valid name=ozf ll=14.000,50.000,15.008,48.992 draw=16384
+-o mayhem/map-ozf/testsuite/two_zooms.ozf3 => valid name=ozf ll=14.000,50.000,15.008,48.992 draw=16384

@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: data-gpx
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/data-gpx/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/data-gpx
+    libfuzzer: true
+    timeout: 10

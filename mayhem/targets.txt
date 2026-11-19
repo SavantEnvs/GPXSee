@@ -1,0 +1,28 @@
+# <target name>  <file suffix>  <mode: data | any | map | ozf>
+# (ozf: the input is an OZF2/OZF3 image, opened through a fixed OziExplorer .map; fuzz_gpxsee.cpp)
+data-fit       fit      data
+data-gpx       gpx      data
+data-nmea      nmea     data
+data-vtk       vtk      data
+data-kml       kml      data
+data-geojson   geojson  data
+data-exif      jpg      data
+data-gpi       gpi      data
+data-mp4       mp4      data
+data-igc       igc      data
+data-any       bin      any
+data-ghp       ghp      data
+map-img        img      map
+map-mapsforge  map      map
+map-rmap       rmap     map
+map-enc        000      map
+map-qct        qct      map
+map-bsb        kap      map
+map-pmtiles    pmtiles  map
+map-jnx        jnx      map
+map-geotiff    tif      map
+map-aqm        aqm      map
+map-gemf       gemf     map
+map-tar        tar      map
+map-kmz        kmz      map
+map-ozf        ozf2     ozf

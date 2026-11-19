@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: map-gemf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/map-gemf/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/map-gemf
+    libfuzzer: true
+    timeout: 10

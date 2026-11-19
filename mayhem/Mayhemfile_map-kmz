@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: map-kmz
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/map-kmz/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/map-kmz
+    libfuzzer: true
+    timeout: 10

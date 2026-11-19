@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: map-qct
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/map-qct/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/map-qct
+    libfuzzer: true
+    timeout: 10

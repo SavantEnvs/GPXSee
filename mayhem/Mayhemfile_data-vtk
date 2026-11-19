@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: data-vtk
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/data-vtk/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/data-vtk
+    libfuzzer: true
+    timeout: 10

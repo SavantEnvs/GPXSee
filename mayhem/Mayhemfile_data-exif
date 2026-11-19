@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: data-exif
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/data-exif/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/data-exif
+    libfuzzer: true
+    timeout: 10

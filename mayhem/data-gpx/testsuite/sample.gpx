@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="seed" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+ <metadata><name>Seed</name><time>2020-05-01T08:00:00Z</time></metadata>
+ <wpt lat="50.0870" lon="14.4210"><ele>190</ele><name>Start</name><desc>Old town</desc><sym>Flag</sym><link href="https://example.com"><text>x</text></link></wpt>
+ <rte><name>R1</name><rtept lat="50.08" lon="14.42"><name>A</name></rtept><rtept lat="50.09" lon="14.43"><name>B</name></rtept><rtept lat="50.10" lon="14.45"><name>C</name></rtept></rte>
+ <trk><name>T1</name><type>running</type>
+  <trkseg>
+   <trkpt lat="50.0870" lon="14.4210"><ele>190.0</ele><time>2020-05-01T08:00:00Z</time><extensions><gpxtpx:TrackPointExtension><gpxtpx:hr>120</gpxtpx:hr><gpxtpx:cad>80</gpxtpx:cad><gpxtpx:atemp>15</gpxtpx:atemp></gpxtpx:TrackPointExtension></extensions></trkpt>
+   <trkpt lat="50.0880" lon="14.4230"><ele>192.5</ele><time>2020-05-01T08:00:30Z</time><extensions><gpxtpx:TrackPointExtension><gpxtpx:hr>130</gpxtpx:hr><gpxtpx:cad>82</gpxtpx:cad><gpxtpx:atemp>15</gpxtpx:atemp></gpxtpx:TrackPointExtension></extensions></trkpt>
+   <trkpt lat="50.0890" lon="14.4250"><ele>195.0</ele><time>2020-05-01T08:01:00Z</time><extensions><gpxtpx:TrackPointExtension><gpxtpx:hr>140</gpxtpx:hr><gpxtpx:cad>84</gpxtpx:cad><gpxtpx:atemp>16</gpxtpx:atemp></gpxtpx:TrackPointExtension></extensions></trkpt>
+  </trkseg>
+  <trkseg>
+   <trkpt lat="50.0900" lon="14.4270"><ele>196</ele><time>2020-05-01T08:05:00Z</time></trkpt>
+   <trkpt lat="50.0910" lon="14.4290"><ele>197</ele><time>2020-05-01T08:05:40Z</time></trkpt>
+  </trkseg>
+ </trk>
+</gpx>

@@ -1,0 +1,9 @@
+project: savantenvs/GPXSee
+target: map-ozf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/map-ozf/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/map-ozf
+    libfuzzer: true
+    timeout: 10
